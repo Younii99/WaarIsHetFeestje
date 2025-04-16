@@ -1,0 +1,80 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0b0b0b;
+  color: white;
+}
+
+header {
+  background: #1a1a1a;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #39ff14;
+}
+
+h2 {
+  color: #ff4afd;
+  margin-bottom: 1rem;
+}
+
+.festivals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.festival-card {
+  background: #2c2c2c;
+  padding: 1rem;
+  width: 280px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.festival-info h3 {
+  color: #39ff14;
+  font-size: 1.2rem;
+}
+
+.ticket-links a {
+  color: #ff4afd;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+.lineup {
+  margin-top: 2rem;
+}
+
+.artist {
+  background: #2c2c2c;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.social-links a {
+  color: #39ff14;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.location {
+  margin-top: 2rem;
+}
+
+.map {
+  background: #2c2c2c;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
